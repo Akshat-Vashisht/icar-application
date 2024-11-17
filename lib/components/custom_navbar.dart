@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class CustomNavbar extends StatelessWidget {
   const CustomNavbar({super.key});
@@ -7,7 +6,7 @@ class CustomNavbar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 220,
+      height: 140,
       decoration: const BoxDecoration(
         color: Color(0xFF74981E),
         borderRadius: BorderRadius.only(
@@ -43,37 +42,6 @@ class CustomNavbar extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 20),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10),
-              child: Row(
-                children: [
-                  Expanded(
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 20),
-                      height: 50,
-                      decoration: BoxDecoration(
-                        color: Colors.transparent,
-                        borderRadius: BorderRadius.circular(20),
-                        border: Border.all(color: Colors.white),
-                      ),
-                      child: Row(
-                        children: [
-                          const Icon(Icons.search, color: Colors.white),
-                          const SizedBox(width: 10),
-                          Text(
-                            'Search for a disease',
-                            style: GoogleFonts.poppins(
-                              color: Colors.white,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
           ],
         ),
       ),
