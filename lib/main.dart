@@ -5,15 +5,16 @@ import 'package:icar_app/pages/home/home_page.dart';
 import 'package:icar_app/pages/intro_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:icar_app/pages/settings_page.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main() {
+Future main() async {
+  await dotenv.load();
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
