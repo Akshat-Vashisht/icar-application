@@ -6,6 +6,7 @@ class CameraButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FloatingActionButton(
+      elevation: 0,
       shape: const CircleBorder(),
       backgroundColor: Color(0xff74981e),
       onPressed: () {},

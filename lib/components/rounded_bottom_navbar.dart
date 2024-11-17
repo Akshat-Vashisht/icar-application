@@ -11,6 +11,7 @@ class RoundedBottomNavbar extends StatelessWidget {
     return BottomAppBar(
       shape: const CircularNotchedRectangle(),
       notchMargin: 10,
+      elevation: 0,
       color: Color(0xff74981e),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
