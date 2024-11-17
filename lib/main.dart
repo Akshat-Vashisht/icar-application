@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:icar_app/pages/chatbot_page.dart';
+import 'package:icar_app/pages/faq.dart';
+import 'package:icar_app/pages/home_page.dart';
 import 'package:icar_app/pages/intro_page.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:icar_app/pages/settings_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +23,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         textTheme: GoogleFonts.poppinsTextTheme(),
       ),
+      routes: {
+        '/home': (context) => const HomePage(),
+        '/chatbot': (context) => const ChatBotPage(),
+        '/settings': (context) => const SettingsPage(),
+        '/faq': (context) => const FAQPage(),
+        '/exit': (context) => const IntroPage(),
+      },
     );
   }
 }
