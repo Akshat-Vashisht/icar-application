@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:icar_app/pages/chatbot_page.dart';
-import 'package:icar_app/pages/faq.dart';
-import 'package:icar_app/pages/home_page.dart';
+import 'package:icar_app/pages/faq_page.dart';
+import 'package:icar_app/pages/home/home_page.dart';
 import 'package:icar_app/pages/intro_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:icar_app/pages/settings_page.dart';

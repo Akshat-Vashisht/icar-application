@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class DiseaseInfo extends StatelessWidget {
-  const DiseaseInfo({super.key});
+class DiseaseInfoPage extends StatelessWidget {
+  const DiseaseInfoPage({super.key});
 
   @override
   Widget build(BuildContext context) {

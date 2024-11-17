@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:icar_app/pages/home_page.dart';
+import 'package:icar_app/pages/home/home_page.dart';
 import 'package:slide_to_act/slide_to_act.dart';
 
 class IntroPage extends StatelessWidget {

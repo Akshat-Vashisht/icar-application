@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:icar_app/components/camera_button.dart';
 import 'package:icar_app/components/rounded_bottom_navbar.dart';
-import 'package:icar_app/pages/disease_info.dart';
-import 'package:icar_app/pages/history.dart';
-import 'package:icar_app/pages/home_content.dart';
+import 'package:icar_app/pages/disease_info_page.dart';
+import 'package:icar_app/pages/history_page.dart';
+import 'package:icar_app/pages/home/home_content.dart';
 import 'package:icar_app/pages/profile_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -18,8 +18,8 @@ class _HomePageState extends State<HomePage> {
 
   final List _pages = [
     const HomeContent(),
-    const DiseaseInfo(),
-    const History(),
+    const DiseaseInfoPage(),
+    const HistoryPage(),
     const ProfilePage(),
   ];
 
