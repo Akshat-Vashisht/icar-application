@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:icar_app/components/camera_button.dart';
-import 'package:icar_app/components/rounded_bottom_navbar.dart';
+import 'package:icar_app/components/custom_bottom_navbar.dart';
 import 'package:icar_app/pages/disease_info_page.dart';
 import 'package:icar_app/pages/history_page.dart';
 import 'package:icar_app/pages/home/home_content.dart';
@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar:
-          RoundedBottomNavbar(onPressed: onPressed, index: _selectedIndex),
+          CustomBottomNavbar(onPressed: onPressed, index: _selectedIndex),
     );
   }
 }

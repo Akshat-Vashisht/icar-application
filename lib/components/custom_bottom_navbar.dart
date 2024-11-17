@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class RoundedBottomNavbar extends StatelessWidget {
+class CustomBottomNavbar extends StatelessWidget {
   final int index;
   final Function onPressed;
-  const RoundedBottomNavbar(
+  const CustomBottomNavbar(
       {super.key, required this.index, required this.onPressed});
 
   @override
