@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:icar_app/components/camera_button.dart';
 import 'package:icar_app/components/custom_bottom_navbar.dart';
-import 'package:icar_app/pages/disease_info_page.dart';
+import 'package:icar_app/pages/disease/disease_info_page.dart';
 import 'package:icar_app/pages/history_page.dart';
 import 'package:icar_app/pages/home/home_content.dart';
 import 'package:icar_app/pages/profile_page.dart';
@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
 
   final List _pages = [
     const HomeContent(),
-    const DiseaseInfoPage(),
+    DiseaseInfoPage(),
     const HistoryPage(),
     const ProfilePage(),
   ];

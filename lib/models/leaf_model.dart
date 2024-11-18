@@ -46,7 +46,7 @@ List<LeafModel> diseaseGrid = [
     ],
   ),
   LeafModel(
-    title: 'Calcarious Soil Systems',
+    title: 'Calcarious Soil',
     description:
         'Calcareous soil systems often hinder nutrient uptake, leading to plant stress and poor crop yield. They are characterized by high pH and excessive calcium carbonate.',
     images: [
@@ -125,14 +125,14 @@ List<LeafModel> diseaseGrid = [
     description:
         'Jassids, also known as leafhoppers, suck plant sap, causing yellowing, curling, and reduced crop vigor.',
     images: [
-      'lib/assets/images/jassid_damage/DSC_1930.jpg',
-      'lib/assets/images/jassid_damage/DSC_1932.jpg',
-      'lib/assets/images/jassid_damage/DSC_1934.jpg',
-      'lib/assets/images/jassid_damage/DSC_1951.jpg',
-      'lib/assets/images/jassid_damage/DSC_1967.jpg',
-      'lib/assets/images/jassid_damage/DSC_1968.jpg'
+      'lib/assets/images/jassid_damage/DSC_1930.JPG',
+      'lib/assets/images/jassid_damage/DSC_1932.JPG',
+      'lib/assets/images/jassid_damage/DSC_1934.JPG',
+      'lib/assets/images/jassid_damage/DSC_1951.JPG',
+      'lib/assets/images/jassid_damage/DSC_1967.JPG',
+      'lib/assets/images/jassid_damage/DSC_1968.JPG'
     ],
-    displayImage: 'lib/assets/images/jassid_damage/DSC_1968.jpg',
+    displayImage: 'lib/assets/images/jassid_damage/DSC_1968.JPG',
     causes: [
       'Infestation by jassid species during warm seasons',
       'Overgrowth of weeds harboring pests',
@@ -146,18 +146,18 @@ List<LeafModel> diseaseGrid = [
     ],
   ),
   LeafModel(
-    title: 'Potassium Deficiency (K Deficiency)',
+    title: 'Potassium Deficiency',
     description:
         'Potassium deficiency in plants leads to yellowing of leaves, weak stems, and reduced resistance to diseases.',
     images: [
-      'lib/assets/images/k_deficiency/DSC_2681.jpg',
-      'lib/assets/images/k_deficiency/DSC_2682.jpg',
-      'lib/assets/images/k_deficiency/DSC_2686.jpg',
-      'lib/assets/images/k_deficiency/DSC_2697.jpg',
-      'lib/assets/images/k_deficiency/DSC_2704.jpg',
-      'lib/assets/images/k_deficiency/DSC_2710.jpg'
+      'lib/assets/images/k_deficiency/DSC_2681.JPG',
+      'lib/assets/images/k_deficiency/DSC_2682.JPG',
+      'lib/assets/images/k_deficiency/DSC_2686.JPG',
+      'lib/assets/images/k_deficiency/DSC_2697.JPG',
+      'lib/assets/images/k_deficiency/DSC_2704.JPG',
+      'lib/assets/images/k_deficiency/DSC_2710.JPG'
     ],
-    displayImage: 'lib/assets/images/k_deficiency/DSC_2710.jpg',
+    displayImage: 'lib/assets/images/k_deficiency/DSC_2710.JPG',
     causes: [
       'Low potassium levels in the soil',
       'Excessive application of nitrogen or calcium fertilizers',
@@ -174,14 +174,14 @@ List<LeafModel> diseaseGrid = [
     description:
         'Mealybug infestation results in plant deformities, stunted growth, and sooty mold formation due to honeydew secretion.',
     images: [
-      'lib/assets/images/mealybug_malformation/DSC03480.jpg',
-      'lib/assets/images/mealybug_malformation/DSC03489.jpg',
-      'lib/assets/images/mealybug_malformation/DSC03591.jpg',
-      'lib/assets/images/mealybug_malformation/DSC03594.jpg',
-      'lib/assets/images/mealybug_malformation/DSC03596.jpg',
-      'lib/assets/images/mealybug_malformation/DSC03613.jpg'
+      'lib/assets/images/mealybug_malformation/DSC03480.JPG',
+      'lib/assets/images/mealybug_malformation/DSC03489.JPG',
+      'lib/assets/images/mealybug_malformation/DSC03591.JPG',
+      'lib/assets/images/mealybug_malformation/DSC03594.JPG',
+      'lib/assets/images/mealybug_malformation/DSC03596.JPG',
+      'lib/assets/images/mealybug_malformation/DSC03613.JPG'
     ],
-    displayImage: 'lib/assets/images/mealybug_malformation/DSC03613.jpg',
+    displayImage: 'lib/assets/images/mealybug_malformation/DSC03613.JPG',
     causes: [
       'Infestation by mealybugs that feed on plant sap',
       'Warm and humid environmental conditions',
@@ -199,14 +199,14 @@ List<LeafModel> diseaseGrid = [
     description:
         'Mites are tiny pests that cause speckled discoloration, curling, and browning of leaves, leading to reduced photosynthesis.',
     images: [
-      'lib/assets/images/mite_infestation/DSC03783.jpg',
-      'lib/assets/images/mite_infestation/DSC03853.jpg',
-      'lib/assets/images/mite_infestation/DSC03867.jpg',
-      'lib/assets/images/mite_infestation/DSC03873.jpg',
-      'lib/assets/images/mite_infestation/DSC03905.jpg',
-      'lib/assets/images/mite_infestation/DSC03912.jpg'
+      'lib/assets/images/mite_infestation/DSC03783.JPG',
+      'lib/assets/images/mite_infestation/DSC03853.JPG',
+      'lib/assets/images/mite_infestation/DSC03867.JPG',
+      'lib/assets/images/mite_infestation/DSC03873.JPG',
+      'lib/assets/images/mite_infestation/DSC03905.JPG',
+      'lib/assets/images/mite_infestation/DSC03912.JPG'
     ],
-    displayImage: 'lib/assets/images/mite_infestation/DSC03912.jpg',
+    displayImage: 'lib/assets/images/mite_infestation/DSC03912.JPG',
     causes: [
       'Dry and dusty conditions promoting mite populations',
       'Overuse of chemical pesticides eliminating natural predators',
@@ -247,14 +247,14 @@ List<LeafModel> diseaseGrid = [
     description:
         'Thrips damage results in curling, discoloration, and silvery streaks on leaves, reducing crop productivity.',
     images: [
-      'lib/assets/images/thrips_curling/DSC02446.jpg',
-      'lib/assets/images/thrips_curling/DSC02450.jpg',
-      'lib/assets/images/thrips_curling/DSC02456.jpg',
-      'lib/assets/images/thrips_curling/DSC02458.jpg',
-      'lib/assets/images/thrips_curling/DSC02459 - Copy.jpg',
-      'lib/assets/images/thrips_curling/DSC02466.jpg'
+      'lib/assets/images/thrips_curling/DSC02446.JPG',
+      'lib/assets/images/thrips_curling/DSC02450.JPG',
+      'lib/assets/images/thrips_curling/DSC02456.JPG',
+      'lib/assets/images/thrips_curling/DSC02458.JPG',
+      'lib/assets/images/thrips_curling/DSC02459 - Copy.JPG',
+      'lib/assets/images/thrips_curling/DSC02466.JPG'
     ],
-    displayImage: 'lib/assets/images/thrips_curling/DSC02466.jpg',
+    displayImage: 'lib/assets/images/thrips_curling/DSC02466.JPG',
     causes: [
       'Feeding by thrips on plant tissue',
       'Dry and warm weather favoring thrip activity',
@@ -268,18 +268,18 @@ List<LeafModel> diseaseGrid = [
     ],
   ),
   LeafModel(
-    title: 'Zinc Toxicity (Zn Toxicity)',
+    title: 'Zinc Toxicity',
     description:
         'Zinc toxicity in plants leads to chlorosis, stunted growth, and poor root development, often caused by excessive zinc in soil.',
     images: [
-      'lib/assets/images/zn_toxicity/DSC_1129.jpg',
-      'lib/assets/images/zn_toxicity/DSC_1205.jpg',
-      'lib/assets/images/zn_toxicity/DSC_1213 - Copy (2).jpg',
-      'lib/assets/images/zn_toxicity/DSC_1218.jpg',
-      'lib/assets/images/zn_toxicity/DSC_1238.jpg',
-      'lib/assets/images/zn_toxicity/DSC_1278.jpg'
+      'lib/assets/images/zn_toxicity/DSC_1129.JPG',
+      'lib/assets/images/zn_toxicity/DSC_1205.JPG',
+      'lib/assets/images/zn_toxicity/DSC_1213 - Copy (2).JPG',
+      'lib/assets/images/zn_toxicity/DSC_1218.JPG',
+      'lib/assets/images/zn_toxicity/DSC_1238.JPG',
+      'lib/assets/images/zn_toxicity/DSC_1278.JPG'
     ],
-    displayImage: 'lib/assets/images/zn_toxicity/DSC_1278.jpg',
+    displayImage: 'lib/assets/images/zn_toxicity/DSC_1278.JPG',
     causes: [
       'Overapplication of zinc-containing fertilizers',
       'Industrial pollution contaminating soil with zinc',
