@@ -4,6 +4,7 @@ import 'package:icar_app/pages/faq_page.dart';
 import 'package:icar_app/pages/home/home_page.dart';
 import 'package:icar_app/pages/intro_page.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:icar_app/pages/prediction.dart';
 import 'package:icar_app/pages/settings_page.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
         '/settings': (context) => const SettingsPage(),
         '/faq': (context) => const FAQPage(),
         '/exit': (context) => const IntroPage(),
+        '/prediction': (context) => const Prediction(),
       },
     );
   }

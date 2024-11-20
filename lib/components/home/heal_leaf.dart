@@ -92,20 +92,23 @@ class HealLeaf extends StatelessWidget {
               ],
             ),
           ),
-          Container(
-            height: 50,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(20),
-              color: Color(0xff74981e),
-            ),
-            margin: EdgeInsets.symmetric(horizontal: 25),
-            child: Center(
-              child: Text(
-                "Take me there",
-                style: GoogleFonts.poppins(
-                  color: Colors.white,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w500,
+          GestureDetector(
+            onTap: () => {Navigator.pushNamed(context, '/prediction')},
+            child: Container(
+              height: 50,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: Color(0xff74981e),
+              ),
+              margin: EdgeInsets.symmetric(horizontal: 25),
+              child: Center(
+                child: Text(
+                  "Take me there",
+                  style: GoogleFonts.poppins(
+                    color: Colors.white,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w500,
+                  ),
                 ),
               ),
             ),

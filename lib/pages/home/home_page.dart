@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:icar_app/components/camera_button.dart';
 import 'package:icar_app/components/custom_bottom_navbar.dart';
 import 'package:icar_app/pages/disease/disease_info_page.dart';
 import 'package:icar_app/pages/history_page.dart';
 import 'package:icar_app/pages/home/home_content.dart';
+import 'package:icar_app/pages/prediction.dart';
 import 'package:icar_app/pages/profile_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -19,6 +19,7 @@ class _HomePageState extends State<HomePage> {
   final List _pages = [
     const HomeContent(),
     DiseaseInfoPage(),
+    Prediction(),
     const HistoryPage(),
     const ProfilePage(),
   ];
@@ -34,12 +35,6 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: const Color(0xffcfcabb),
       body: _pages[_selectedIndex],
-      floatingActionButton: SizedBox(
-        width: 70,
-        height: 70,
-        child: CameraButton(),
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar:
           CustomBottomNavbar(onPressed: onPressed, index: _selectedIndex),
     );
