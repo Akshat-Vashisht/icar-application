@@ -17,9 +17,15 @@ class HomeContent extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           CustomNavbar(),
-          HeadingComponent(title: "Diagnose your leaf"),
+          HeadingComponent(
+            title: "Diagnose your leaf",
+            fontSize: 20,
+          ),
           HealLeaf(),
-          HeadingComponent(title: "Today's Weather"),
+          HeadingComponent(
+            title: "Today's Weather",
+            fontSize: 20,
+          ),
           Weather()
         ],
       ),

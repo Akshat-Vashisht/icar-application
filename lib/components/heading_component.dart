@@ -3,7 +3,9 @@ import 'package:google_fonts/google_fonts.dart';
 
 class HeadingComponent extends StatelessWidget {
   final String title;
-  const HeadingComponent({super.key, required this.title});
+  final double fontSize;
+  const HeadingComponent(
+      {super.key, required this.title, required this.fontSize});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +14,7 @@ class HeadingComponent extends StatelessWidget {
       child: Text(
         title,
         style: GoogleFonts.poppins(
-          fontSize: 20,
+          fontSize: fontSize,
           fontWeight: FontWeight.bold,
         ),
       ),
