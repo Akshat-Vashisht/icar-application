@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:icar_app/components/custom_search_bar.dart';
-import 'package:icar_app/components/disease_info/disease_tile.dart';
+import 'package:icar_app/components/disease/disease_tile.dart';
 import 'package:icar_app/models/leaf_model.dart';
 
 class DiseaseGrid extends StatefulWidget {

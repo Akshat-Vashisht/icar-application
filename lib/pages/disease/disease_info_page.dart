@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:icar_app/components/custom_drawer.dart';
 import 'package:icar_app/components/custom_navbar.dart';
-import 'package:icar_app/components/disease_info/disease_grid.dart';
+import 'package:icar_app/components/disease/disease_grid.dart';
 
 class DiseaseInfoPage extends StatelessWidget {
   const DiseaseInfoPage({super.key});
