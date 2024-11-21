@@ -22,6 +22,17 @@ class _PredictionState extends State<Prediction> {
   bool _loading = false;
   Map<String, dynamic>? _outputs;
 
+  captureImage() async {
+    final ImagePicker picker = ImagePicker();
+    final XFile? image = await picker.pickImage(source: ImageSource.camera);
+    if (image == null) return;
+    setState(() {
+      _loading = true;
+      _image = File(image.path);
+    });
+    classifyImage(_image!);
+  }
+
   pickImage() async {
     final ImagePicker picker = ImagePicker();
     final XFile? image = await picker.pickImage(source: ImageSource.gallery);
@@ -102,7 +113,7 @@ class _PredictionState extends State<Prediction> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               GestureDetector(
-                onTap: pickImage,
+                onTap: captureImage,
                 child: Padding(
                   padding:
                       const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
